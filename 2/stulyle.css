@@ -1,0 +1,45 @@
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+
+            li:hover {
+                background-color: #f5f5f5;
+            }
+
+            li:active {
+                transform: scale(1.1);
+            }
+
+            li:focus {
+                outline: 2px solid blue;
+            }
+
+            li:visited {
+                color: purple;
+            }
+
+            li:empty {
+                display: none;
+            }
+
+            li:first-child {
+                font-size: 18px;
+            }
+
+            li:last-child {
+                font-size: 14px;
+            }
+
+            li:nth-child(odd) {
+                color: green;
+            }
+
+            li:nth-child(even) {
+                color: orange;
+            }
